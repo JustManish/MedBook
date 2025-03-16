@@ -1,7 +1,7 @@
 # MedBook
 
 ## Overview
-MedBook is an iOS/iPadOS application that allows users to search for books, sort them based on various parameters, and bookmark their favorite books for later use. The app follows a clean and scalable architecture, implementing the MVVM pattern with SOLID principles and Protocol-Oriented Programming for navigation. SwiftUI is used for the UI, while Core Data serves as the local storage mechanism.
+MedBook is an iOS application that allows users to search for books, sort them based on various parameters, and bookmark their favorite books for later use. The app follows a clean and scalable architecture, implementing the MVVM pattern with SOLID principles and Protocol-Oriented Programming for navigation it relies on UINavigationController, SwiftUI is used for the UI, while Core Data and UserDefaults serves as the local storage mechanism.
 
 ## Features
 ### Level 1 - Authentication
@@ -43,6 +43,14 @@ MedBook is an iOS/iPadOS application that allows users to search for books, sort
 - **Protocol-Oriented Programming (POP)**: Used for navigation (**UINavigationController-based**).
 - **Repository Pattern**: Abstracts Core Data interactions for better separation of concerns.
 - **Dependency Injection**: Enables better testability.
+
+  ## TechStack
+- **Swift**
+- **SwiftUI**
+- **UIkit**
+- **Core Data**
+- **Combine**
+- **Swift Package Manager**
 
 ## Improvements & Future Enhancements
 1. **Test Coverage**: Increase coverage by adding unit tests for services, view models, and repositories.
