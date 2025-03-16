@@ -42,7 +42,7 @@ MedBook is an iOS/iPadOS application that allows users to search for books, sort
 - **SOLID Principles**: Ensures modular, scalable, and maintainable code.
 - **Protocol-Oriented Programming (POP)**: Used for navigation (**UINavigationController-based**).
 - **Repository Pattern**: Abstracts Core Data interactions for better separation of concerns.
-- **Dependency Injection**: Enables better testability and modular design.
+- **Dependency Injection**: Enables better testability.
 
 ## Improvements & Future Enhancements
 1. **Test Coverage**: Increase coverage by adding unit tests for services, view models, and repositories.
@@ -57,12 +57,11 @@ MedBook is an iOS/iPadOS application that allows users to search for books, sort
    git clone <repo_url>
    cd MedBook
    ```
-2. Install dependencies (if any).
-3. Open `MedBook.xcodeproj` in **Xcode 16**.
-4. Build and run on an iOS simulator or device.
+2. Open `MedBook.xcodeproj` in **Xcode 16**.
+3. Build and run on an iOS simulator or device.
 
 ## External Dependencies:
-Kingfisher Image Library via SPM
+   Kingfisher Image Library via SPM
 
 ## Contact
 For any questions or contributions, feel free to open an issue or submit a pull request.
