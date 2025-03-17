@@ -8,7 +8,7 @@
 import UIKit
 import SwiftUI
 
-class BookmarksViewController: UIViewController {
+final class BookmarksViewController: UIViewController {
     
     private lazy var embedController: UIHostingController<BookmarksView> = {
         let viewModel = BookmarksViewModel(authService: AuthService())
